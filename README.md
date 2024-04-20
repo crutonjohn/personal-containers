@@ -29,10 +29,10 @@ We do take a similar approach but instead of appending a `-ls69` or `-r420` pref
 
 | Container                                          | Immutable |
 |----------------------------------------------------|-----------|
-| `ghcr.io/onedr0p/sonarr:rolling`                   | ❌         |
-| `ghcr.io/onedr0p/sonarr:3.0.8.1507`                | ❌         |
-| `ghcr.io/onedr0p/sonarr:rolling@sha256:8053...`    | ✅         |
-| `ghcr.io/onedr0p/sonarr:3.0.8.1507@sha256:8053...` | ✅         |
+| `ghcr.io/crutonjohn/sonarr:rolling`                   | ❌         |
+| `ghcr.io/crutonjohn/sonarr:3.0.8.1507`                | ❌         |
+| `ghcr.io/crutonjohn/sonarr:rolling@sha256:8053...`    | ✅         |
+| `ghcr.io/crutonjohn/sonarr:3.0.8.1507@sha256:8053...` | ✅         |
 
 _If pinning an image to the sha256 digest, tools like [Renovate](https://github.com/renovatebot/renovate) support updating the container on a digest or application version change._
 
