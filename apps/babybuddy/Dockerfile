@@ -63,6 +63,6 @@ EXPOSE 9090
 COPY ./uwsgi.ini.tmpl /app/uwsgi.ini.tmpl
 #COPY ./apps/babybuddy/entrypoint.sh /entrypoint.sh
 COPY ./entrypoint.sh /entrypoint.sh
-CMD ["/entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
 
 LABEL org.opencontainers.image.source="https://github.com/babybuddy/babybuddy"
