@@ -103,7 +103,6 @@ Each Image will be built with a `rolling` tag, along with tags specific to it's 
 Container | Channel | Image
 --- | --- | ---
 [actions-runner](https://github.com/crutonjohn/personal-containers/pkgs/container/actions-runner) | stable | ghcr.io/crutonjohn/actions-runner
-[babybuddy](https://github.com/crutonjohn/personal-containers/pkgs/container/babybuddy) | v2.1.2 | ghcr.io/crutonjohn/babybuddy
 [lidarr-plugins](https://github.com/crutonjohn/personal-containers/pkgs/container/lidarr-plugins) | plugins | ghcr.io/crutonjohn/lidarr-plugins
 
 
