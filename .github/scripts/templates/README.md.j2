@@ -45,12 +45,12 @@ To run these containers as non-root make sure you update your configuration to t
 ```yaml
 networks:
   sonarr:
-    name: sonarr
+    name: lidarr
     external: true
 services:
   sonarr:
-    image: ghcr.io/onedr0p/sonarr:3.0.8.1507
-    container_name: sonarr
+    image: ghcr.io/crutonjohn/lidarr:rolling
+    container_name: lidarr
     user: 65534:65534
     # ...
 ```
@@ -61,7 +61,7 @@ services:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sonarr
+  name: lidarr
 # ...
 spec:
   # ...
