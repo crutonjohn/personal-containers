@@ -9,7 +9,7 @@ to edit this file, instead edit its template at: ./github/scripts/templates/READ
 
 This has been hard forked from the upstream: https://github.com/onedr0p/containers
 
-_An opinionated collection of container images_
+_An opinionated collection of container images for my personal use_
 
 </div>
 
