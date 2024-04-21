@@ -119,4 +119,5 @@ Containers here can be **deprecated** at any point, this could be for any reason
 
 ## Credits
 
-A lot of inspiration and ideas are thanks to the hard work of [hotio.dev](https://hotio.dev/) and [linuxserver.io](https://www.linuxserver.io/) contributors.
+- A lot of inspiration and ideas are thanks to the hard work of [hotio.dev](https://hotio.dev/) and [linuxserver.io](https://www.linuxserver.io/) contributors.
+- Credit to @onedr0p for building all of the automation and workflows to publish and build containers. Thank you.
