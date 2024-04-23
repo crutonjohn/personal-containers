@@ -20,7 +20,7 @@ ENV \
     DEEMIX__VERSION="${VERSION}" \
     DEEMIX__PORT="6595" \
     DEEMIX__DATA_DIR="/config" \
-    DEEMIX__MUSIC_DIR="/music" \
+    DEEMIX__MUSIC_DIR="/music"
 
 ENV UMASK="0002" \
     TZ="Etc/UTC"
