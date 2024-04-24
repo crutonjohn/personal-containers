@@ -4,7 +4,7 @@ process:
   deemix-server:
     running: true
 port:
-  tcp4:6595:
+  tcp:6595:
     listening: true
 http:
   http://localhost:6595:
