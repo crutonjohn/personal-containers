@@ -103,6 +103,7 @@ Each Image will be built with a `rolling` tag, along with tags specific to it's 
 Container | Channel | Image
 --- | --- | ---
 [actions-runner](https://github.com/crutonjohn/personal-containers/pkgs/container/actions-runner) | stable | ghcr.io/crutonjohn/actions-runner
+[deemix-latest](https://github.com/crutonjohn/personal-containers/pkgs/container/deemix-latest) | latest | ghcr.io/crutonjohn/deemix-latest
 [lidarr-plugins](https://github.com/crutonjohn/personal-containers/pkgs/container/lidarr-plugins) | plugins | ghcr.io/crutonjohn/lidarr-plugins
 
 
