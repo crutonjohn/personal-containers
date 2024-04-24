@@ -1,0 +1,15 @@
+---
+# yaml-language-server: $schema=https://raw.githubusercontent.com/goss-org/goss/master/docs/schema.yaml
+process:
+  deemix-server:
+    running: true
+#port:
+#  tcp4:6595:
+#    listening: true
+http:
+  http://localhost:6595:
+    status: 200
+    timeout: 5000
+file:
+  /usr/local/bin/envsubst:
+    exists: true
