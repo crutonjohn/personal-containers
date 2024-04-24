@@ -19,8 +19,9 @@ ARG VERSION
 ENV \
     DEEMIX__VERSION="${VERSION}" \
     DEEMIX__PORT="6595" \
+    DEEMIX__HOST="0.0.0.0" \
     DEEMIX__DATA_DIR="/config" \
-    DEEMIX__MUSIC_DIR="/music"
+    DEEMIX__MUSIC_DIR="/downloads"
 
 ENV UMASK="0002" \
     TZ="Etc/UTC"
@@ -48,6 +49,8 @@ RUN \
     esac \
     && \
     mkdir -p /app/bin \
+    mkdir -p /config \
+    mkdir -p /downloads \
     && \
     curl -fsSL "https://gitlab.com/api/v4/projects/19217373/packages/generic/${DEEMIX__VERSION}/${DEEMIX__VERSION}/deemix-server-linux-${ARCH}" -o /app/bin/deemix-server \
     && chown -R root:root /app \
