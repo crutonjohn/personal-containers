@@ -49,8 +49,6 @@ RUN \
     esac \
     && \
     mkdir -p /app/bin \
-    mkdir -p /config \
-    mkdir -p /downloads \
     && \
     curl -fsSL "https://gitlab.com/api/v4/projects/19217373/packages/generic/${DEEMIX__VERSION}/${DEEMIX__VERSION}/deemix-server-linux-${ARCH}" -o /app/bin/deemix-server \
     && chown -R root:root /app \
