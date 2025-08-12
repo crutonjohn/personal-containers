@@ -9,6 +9,3 @@ RUN apk add --no-cache \
     && rm -rf /var/cache/apk/*
 
 USER node
-
-RUN ffmpeg -version
-RUN command -v ffmpeg
