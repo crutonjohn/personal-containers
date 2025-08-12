@@ -10,7 +10,7 @@ channels:
       type: web
   - name: stable
     platforms: ["linux/amd64"]
-    verstion: 1.99.1
+    version: 1.99.1
     stable: true
     tests:
       enabled: true
