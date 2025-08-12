@@ -1,0 +1,16 @@
+---
+app: n8n-worker
+semver: true
+channels:
+  - name: latest
+    platforms: ["linux/amd64"]
+    stable: false
+    tests:
+      enabled: true
+      type: web
+  - name: 1.99.1
+    platforms: ["linux/amd64"]
+    stable: true
+    tests:
+      enabled: true
+      type: web
