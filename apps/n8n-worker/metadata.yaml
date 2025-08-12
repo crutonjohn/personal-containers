@@ -8,9 +8,8 @@ channels:
     tests:
       enabled: true
       type: web
-  - name: stable
+  - name: "1.99.1"
     platforms: ["linux/amd64"]
-    version: 1.99.1
     stable: true
     tests:
       enabled: true
