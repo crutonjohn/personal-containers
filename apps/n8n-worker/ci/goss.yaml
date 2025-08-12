@@ -4,5 +4,5 @@ process:
   node:
     running: true
 file:
-  /usr/local/bin/ffmpeg:
+  /usr/bin/ffmpeg:
     exists: true
