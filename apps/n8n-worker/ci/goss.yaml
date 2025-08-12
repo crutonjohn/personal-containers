@@ -1,0 +1,8 @@
+---
+# yaml-language-server: $schema=https://raw.githubusercontent.com/goss-org/goss/master/docs/schema.yaml
+process:
+  node:
+    running: true
+file:
+  /usr/local/bin/ffmpeg:
+    exists: true
