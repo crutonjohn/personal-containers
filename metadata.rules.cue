@@ -15,7 +15,7 @@
     }
 }
 
-#AppVersion:  string & !="" & =~"^[a-zA-Z0-9\\._-]+$"
+#AppVersion:  string & !=""
 #AppName:     string & !="" & =~"^[a-zA-Z0-9_-]+$"
 #ChannelName: string & !="" & =~"^[a-zA-Z0-9._-]+$"
 #Platforms:   "linux/amd64" | "linux/arm64"
