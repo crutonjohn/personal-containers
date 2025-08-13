@@ -8,7 +8,7 @@
     name: #ChannelName
     platforms: [...#Platforms]
     stable: bool
-    version: #AppVersion
+    version?: #AppVersion
     tests: {
         enabled: bool
         type?:   =~"^(cli|web)$"
