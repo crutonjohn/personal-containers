@@ -1,7 +1,6 @@
 ---
 app: n8n-worker
 semver: true
-version: 1.99.1
 channels:
   - name: latest
     platforms: ["linux/amd64"]
