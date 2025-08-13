@@ -97,7 +97,11 @@ def get_image_metadata(subdir, meta, forRelease=False, force=False, channels=Non
                 continue
             toBuild["published_version"] = published
 
-        toBuild["version"] = version
+        # Check for version pinning in metadata.yaml
+        if "version" in meta:
+            toBuild["version"] = meta["version"]
+        else:
+            toBuild["version"] = version
 
         # Image Tags
         toBuild["tags"] = ["rolling", version]
